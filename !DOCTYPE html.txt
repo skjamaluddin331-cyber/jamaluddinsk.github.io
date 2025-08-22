@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Your Name – Research</title>
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin:0; padding:0; background:#f0f2f5; color:#333;}
+    header { background:#4B6CB7; background: linear-gradient(135deg, #4B6CB7 0%, #182848 100%); color:white; padding:2rem 1rem; text-align:center; }
+    header h1 { margin:0; font-size:2.5rem; }
+    header p { font-size:1.2rem; margin-top:0.5rem; }
+    nav { margin-top:1rem; }
+    nav a { color:white; margin:0 1rem; text-decoration:none; font-weight:bold; transition: color 0.3s; }
+    nav a:hover { color:#FFD700; }
+    section { padding:4rem 1rem; max-width:1000px; margin:auto; }
+    section h2 { border-bottom:3px solid #4B6CB7; padding-bottom:0.5rem; margin-bottom:2rem; font-size:2rem; }
+    .cards { display:flex; flex-wrap:wrap; gap:2rem; justify-content:center; }
+    .card { background:white; border-radius:12px; padding:1.5rem; box-shadow:0 4px 10px rgba(0,0,0,0.1); width:300px; transition: transform 0.3s, box-shadow 0.3s; }
+    .card:hover { transform: translateY(-5px); box-shadow:0 8px 20px rgba(0,0,0,0.2); }
+    .card h3 { margin-top:0; color:#4B6CB7; }
+    footer { background:#333; color:white; text-align:center; padding:1rem; }
+    a { color:#4B6CB7; text-decoration:none; }
+    a:hover { color:#182848; }
+    img.profile { max-width:150px; border-radius:50%; margin-bottom:1rem; border:3px solid white; }
+    .contact-info { font-size:1.1rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="profile.jpg" alt="Profile Photo" class="profile">
+    <h1>Dr. Your Name</h1>
+    <p>Postdoctoral Researcher in Condensed Matter Physics</p>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>Hello! I am a researcher focusing on advanced materials and topological quantum phenomena. My work involves synthesizing single crystals, exploring exotic magnetic states, and studying their emergent electronic properties.</p>
+  </section>
+
+  <section id="research">
+    <h2>Research Projects</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Skyrmion Stabilization</h3>
+        <p>Studying the stabilization of magnetic Skyrmions in transition metal dichalcogenides via tuning exchange and anisotropy.</p>
+      </div>
+      <div class="card">
+        <h3>Emergent Hall Effects</h3>
+        <p>Investigating anomalous and topological Hall effects arising from non-collinear spin textures in metallic magnets.</p>
+      </div>
+      <div class="card">
+        <h3>Crystal Growth</h3>
+        <p>Developing high-quality single crystalline samples for exploring topological magnetic states and potential spintronic applications.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <div class="cards">
+      <div class="card">
+        <h3><a href="#">Paper Title 1</a></h3>
+        <p>Journal Name, Year. Short description or DOI link.</p>
+      </div>
+      <div class="card">
+        <h3><a href="#">Paper Title 2</a></h3>
+        <p>Journal Name, Year. Short description or DOI link.</p>
+      </div>
+      <div class="card">
+        <h3><a href="#">Paper Title 3</a></h3>
+        <p>Journal Name, Year. Short description or DOI link.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p class="contact-info">Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p class="contact-info">Twitter / LinkedIn / ResearchGate links (optional)</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dr. Your Name</p>
+  </footer>
+
+</body>
+</html>
